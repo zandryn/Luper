@@ -22,5 +22,5 @@ Lupér is a cute movie & TV journal app built with SwiftUI for iOS.
 
 ✦ . 　⁺ 　 . ✦ . 　⁺ 　 . ✦
 
-🪄 Lead Programmer - Designer: [Zandryn Epan](https://github.com/zandryn)
-🪄 Consultant - Designer: [Brandon Quijada] (https://github.com/bdnquijada)
+Lead Programmer - Designer: [Zandryn Epan](https://github.com/zandryn)
+Consultant - Designer: [Brandon Quijada] (https://github.com/bdnquijada)
