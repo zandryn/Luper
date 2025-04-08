@@ -1,0 +1,31 @@
+# Xcode (derived from template)
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# Cocoapods (if you use it later)
+Pods/
+Podfile.lock
+
+# Firebase / secrets
+GoogleService-Info.plist
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
