@@ -27,7 +27,7 @@ struct LuperApp: App {
     var body: some Scene {
         WindowGroup {
             if is_logged_in {
-                Home()
+                BottomNavBar()
             } else {
                 AuthRouterView()
             }

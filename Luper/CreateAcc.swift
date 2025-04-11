@@ -108,7 +108,9 @@ struct CreateAcc: View {
                         if let user = result?.user {
                             db.collection("users").document(user.uid).setData([
                                 "username": username,
-                                "email": email
+                                "email": email,
+                                "pfp": "loopy",
+                                "buddies": []
                             ]) { error in
                                 if let error = error {
                                     ia_message = "Account created but failed to save user data: \(error.localizedDescription)"

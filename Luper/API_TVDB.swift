@@ -8,11 +8,12 @@
 import Foundation
 
 class API_TVDB: ObservableObject {
-    @Published var results: [String] = [] // You’ll replace String with a model later
+    @Published var results: [String] = []
 
     private let apiKey = "55f35894-b90d-409b-a4e8-9387b67bd5d5"
     private var token: String?
 
+    // connect TVDB API
     func authenticate(completion: @escaping (Bool) -> Void) {
         let url = URL(string: "https://api4.thetvdb.com/v4/login")!
         var request = URLRequest(url: url)
@@ -39,6 +40,7 @@ class API_TVDB: ObservableObject {
         }.resume()
     }
 
+    // perform search through TVDB API & return results
     func search(query: String) {
         guard let token = token else { return }
 
