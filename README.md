@@ -1,4 +1,4 @@
-# 🐛 Lupér
+# 🐛 Lupér [WIP]
 
 Lupér is a cute movie & TV journal app built with SwiftUI for iOS.
 
